@@ -1,0 +1,61 @@
+p{
+	color:white;
+	font-size:25px;
+	font-family: Copperplate,Papyrus ;
+	word-spacing: 6px;
+	text-align: center;
+}
+.row{
+	display: flex;
+    flex-wrap: wrap;
+    margin-right: -25px;
+    margin-left: -15px;
+}
+.row p{
+	color:#e28d36;
+}
+.about-me{
+	font-size:60px;
+	text-align: center;
+	font-family: Copperplate,Papyrus ;
+}
+.img2{
+	height: 500px;
+    margin-top: 38px;
+    margin-left: 5%;
+	z-index: 1;
+}
+@media screen and (max-width: 900px) {
+	.about-me{
+	   font-size: 40px;
+	   font-family: Copperplate,Papyrus ;
+	   }
+	   p{
+		font-size:20px;
+		font-family: Copperplate,Papyrus ;
+	   }
+	   .img2{
+		height: 497px;
+		width: 300px;
+	margin-top: 35px;
+	margin-left: -25%;
+	z-index: 1;
+	}
+}
+@media screen and (max-width: 571px) and (min-width: 387px){
+	.img2{
+		margin-left: 22%;
+	}
+}
+@media screen and (max-width: 388px) and (min-width: 280px){
+	.img2{
+		margin-left: 2%;
+	}
+
+}
+@media screen and (max-width: 213) and (min-width: 209px){
+	.img2{
+		margin-left: 3%;
+	}
+
+}

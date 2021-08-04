@@ -1,0 +1,66 @@
+label{
+	color:white;
+  padding: 20px;
+	
+}
+p{
+	color:white;
+	font-size:25px;
+	font-family:Copperplate,Papyrus;
+	word-spacing: 6px;
+  text-align: center;
+    
+}
+.skills-me {
+    font-size: 60px;
+    text-align: center;
+    font-family: Copperplate,Papyrus ;
+    
+}
+
+.sk{
+	background-color:black;
+}
+.progress{
+	background-color: white;
+	height: 6px;
+}
+.progress-bar-danger {
+    background-color: #e19654;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  font-size: 23px;
+  border: none;
+  width:100%;
+  font-family:Copperplate,Papyrus;
+}
+
+
+.dropdown-content {
+  display: none;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+  font-family:Copperplate,Papyrus;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+@media screen and (max-width: 900px) {
+	.skills-me{
+	   font-size: 40px;
+     font-family: Copperplate,Papyrus ;
+	   }
+	   p{
+		font-size:20px;
+    font-family: Copperplate,Papyrus ;
+	   }
+	}

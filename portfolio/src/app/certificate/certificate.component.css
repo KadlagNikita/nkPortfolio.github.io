@@ -1,0 +1,84 @@
+p{
+	color:white;
+	font-family: Copperplate,Papyrus ;
+	word-spacing: 6px;
+    text-align: center;
+    
+}
+.certi-me{
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Copperplate,Papyrus ;
+}
+.text{
+	color: white;
+	text-align: center;
+	font-family: Copperplate,Papyrus ;
+	font-size: 20px;
+}
+.img1{
+	height: 16rem;
+	width: 22rem;
+	margin-left: 86px;
+}
+
+@media screen and (max-width: 900px) {
+	.certi-me{
+		font-size: 37px;
+		font-family: Copperplate,Papyrus ;
+	}
+	p{
+		color:white;
+		font-family: Copperplate,Papyrus ;
+		word-spacing: 6px;
+		text-align: center;
+		
+	}
+	.text{
+		color: white;
+		text-align: center;
+		font-family: Copperplate,Papyrus ;
+		font-size: 20px;
+	}
+	}
+	@media screen and (max-width: 767px) {
+		.img1{
+			height: 16rem;
+			width: 17rem;
+			margin-left: -17px;
+		}
+		
+	}
+	@media screen and (max-width: 575px) and (min-width: 523px){
+			.img1{
+				height: 16rem;
+				width: 17rem;
+				margin-left: 143px;
+			}
+			
+	}
+	@media screen and (max-width: 501px) and (min-width: 423px){
+		.img1{
+			height: 16rem;
+			width: 17rem;
+			margin-left: 89px;
+		}
+		
+}
+@media screen and (max-width: 401px) and (min-width: 357px){
+	.img1{
+		height: 16rem;
+		width: 17rem;
+		margin-left: 40px;
+	}
+	
+}
+@media screen and (max-width: 329px) {
+	.img1{
+		height: 16rem;
+		width: 17rem;
+		margin-left: -11px;
+	}
+	
+}

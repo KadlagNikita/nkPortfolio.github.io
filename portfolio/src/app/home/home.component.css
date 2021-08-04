@@ -1,0 +1,98 @@
+#my-img{
+	
+	display: none;
+}
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 550px;
+    width: 100%;
+    margin-top: 43px;
+}
+.hire-me{
+    background-color: black;
+    font-family: Copperplate,Papyrus ;
+    
+}
+
+.btn-success {
+    color: #000;
+    background-color: #e17839;
+    border-color: #8e560d;
+	height:40px;
+	border-radius: 19px;
+    font-family: Copperplate,Papyrus ;
+    font-weight: bold;
+    margin-left: 620px;
+}
+.img2{
+    height: 71px;
+    width: 103px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+    margin-left: -193px;
+}
+
+@media (max-width:720px) {
+#my-img{
+    display:block;
+    width:100%;
+    margin-top: 1rem;
+}
+#desktop-img{
+	display:none;
+}
+
+.btn-success {
+    color: #000;
+    background-color: #e17839;
+    border-color: #8e560d;
+	height:40px;
+	border-radius: 19px;
+    font-family: Copperplate,Papyrus ;
+    font-weight: bold;
+    margin-left: 208px;
+}
+}
+@media screen and (max-width: 493px) and (min-width: 355px){
+	.btn-success {
+        color: #000;
+        background-color: #e17839;
+        border-color: #8e560d;
+        height:40px;
+        border-radius: 19px;
+        font-family: Copperplate,Papyrus ;
+        font-weight: bold;
+        margin-left: 165px;
+    }
+
+}
+@media screen and (max-width: 359px) and (min-width: 260px){
+	.btn-success {
+        color: #000;
+        background-color: #e17839;
+        border-color: #8e560d;
+        height:40px;
+        border-radius: 19px;
+        font-family: Copperplate,Papyrus ;
+        font-weight: bold;
+        margin-left: 120px;
+    }
+
+}
+@media screen and (max-width: 259px) and (min-width: 187px){
+	.btn-success {
+        color: #000;
+        background-color: #e17839;
+        border-color: #8e560d;
+        height:40px;
+        border-radius: 19px;
+        font-family: Copperplate,Papyrus ;
+        font-weight: bold;
+        margin-left: 81px;
+    }
+
+}
+

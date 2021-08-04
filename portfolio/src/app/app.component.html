@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-md fade-in-text">
+  <a routerLink="/home" routerLinkActive="active" class="navbar-brand">Nikita.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    
+    <img  class="img-me" src="assets/img/s2.jpg">
+   
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a routerLink="/home" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="about" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/skills" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">Skills</a>
+      </li> 
+      <li class="nav-item">
+        <a routerLink="/resume" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">Resume</a>
+      </li>  
+      <li class="nav-item">
+        <a routerLink="/certificate" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">Certifications</a>
+      </li>  
+      <li class="nav-item">
+        <a routerLink="/contact" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
+      </li>   
+    </ul>
+  </div>  
+</nav>
+<br>
+
+<script>
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
+</script>
+<router-outlet></router-outlet>
+<app-header></app-header>
+<app-footer></app-footer>
+
